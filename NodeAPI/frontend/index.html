@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CPF Validation</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Validador de CPF</h1>
+    <form id="cpfForm">
+      <label for="cpfInput">Digite o CPF:</label>
+      <!-- O tamanho máximo do CPF é 11, porém se for digitado com '.' e '-' terá o tamanho = 14 -->
+      <input type="text" id="cpfInput" maxlength="14" required />
+      <button type="submit">Validar</button>
+      <p id="result"></p>
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>
