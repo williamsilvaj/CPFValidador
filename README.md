@@ -7,6 +7,8 @@ A estrutura básica do projeto segue a separação de responsabilidades comuns a
 - **Model (Modelo):** Representado pela classe `CPFModel` responsável por realizar a validação do CPF.
 - **Controller (Controlador):** Representado pelo arquivo `CPFController.js` que contém a lógica para receber requisições, processá-las usando o modelo e enviar as respostas.
 
+![MVC](https://github.com/williamsilvaj/CPFValidador/assets/119798187/0ab9348c-fd8d-4a97-88d9-2ab6ae19a2e0)
+
 
 ### Pré-requisitos
 Certifique-se de ter o Node.js e o npm instalados em seu ambiente.
